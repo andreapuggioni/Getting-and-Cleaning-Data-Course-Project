@@ -1,0 +1,34 @@
+---
+title: "README"
+author: "Andrea Puggioni"
+date: "4/20/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Peer-graded Assignment: Getting and Cleaning Data Course Project
+==========================================
+
+**This repository is the author's submission to the final assignment for the Getting and Cleaning Data Coursera course.**
+
+## Data set
+
+*Human Activity Recognition Using Smartphones*
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+## Files  
+
+*CodeBook.Rmd* is the code book that describes the variables, the data, and any modifications performed on the original data set.   
+
+*run_analysis.R* is the actual script that does the work, and accomplishes the 5 tasks required, as quoted from the course material:  
+1. Merges the training and the test sets to create one data set.  
+2. Extracts only the measurements on the mean and standard deviation for each measurement.  
+3. Uses descriptive activity names to name the activities in the data set.  
+4. Appropriately labels the data set with descriptive variable names.  
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
+
+`tidy_dataset.txt` is the exported file referred to in point 5.
